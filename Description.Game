@@ -1,0 +1,8 @@
+My AI-powered Tic-Tac-Toe game implements the Minimax algorithm to create an intelligent opponent that makes optimal moves. 
+The Minimax algorithm is a recursive decision-making strategy used in two-player games to minimize the opponent’s best possible
+outcome while maximizing the AI’s chances of winning. The AI evaluates all possible future moves, assigns scores based on win, 
+loss, or draw scenarios, and selects the move that ensures the best outcome. This makes the AI unbeatable unless the human player also plays optimally.
+The game is structured with an interface-based Player system, where both the HumanPlayer and AIPlayer classes implement a common Player interface.
+The Board class manages the 3x3 grid, checking for valid moves, win conditions, and game state updates. 
+The Game class orchestrates turns between the human and AI, ensuring smooth gameplay. 
+Through this project, I deepened my understanding of game theory, recursion, and AI decision-making, making the Minimax algorithm a crucial part of the AI’s strategic thinking.
